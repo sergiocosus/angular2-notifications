@@ -1,0 +1,11 @@
+/compiled
+*.ngFactory.ts
+/docs
+/example
+/tests
+.idea
+gulpfile.js
+karma.conf.js
+tsconfig.json
+tslint.json
+.npmignore

@@ -4,7 +4,6 @@ typings
 example/node_modules
 example/app/**/**.js
 .idea
-.npmignore
 lib
 tests/testing-utils.d.ts
 tests/testing-utils.js.map
@@ -16,3 +15,9 @@ tests/webpack.test.d.ts
 tests/webpack.test.js
 tests/webpack.test.js.map
 coverage
+
+/compiled
+*.metadata.json
+# These lines were probably already there
+*.map.js
+*.js  # or /src/**/*.js
